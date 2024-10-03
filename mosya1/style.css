@@ -1,0 +1,119 @@
+
+body {
+    font-size: 12px;
+}
+#header {
+    height: 600px;
+    background-image: url(images/mainvisual.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.title {
+    position: absolute;
+    top: 20px;
+    right: 50px;
+
+}
+
+.sec-text {
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 60px;
+    padding-top: 50px;
+}
+
+.article-pic {
+    height: 500px;
+    width: 500px;
+    margin: 10px;
+    position: relative;
+}
+
+#articles {
+    display: flex;
+    justify-content: center;
+}
+
+.article-content {
+    position: relative;
+}
+
+.box {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-weight: bold;
+    height: auto;
+    width: 300px;
+    background-color: black;
+    opacity: 50%;
+    text-align: center
+}
+
+#fashion-pic {
+    height: 600px;
+    background-image: url(images/fashion.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    position: relative;
+}
+
+.btn {
+    border: black 1px solid;
+    padding:10px 20px;
+    font-size: 10px;
+    text-decoration: none;
+}
+.pics {
+    height: 500px;
+    width: 500px;
+    margin: 10px;
+}
+
+#catalog {
+    display: flex;
+    justify-content: center;
+}
+.cata-ant-text {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+.cat-text {
+    height: 500px;
+    width: 500px;
+    margin: 10px;
+}
+
+#antique {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.ant-text {
+    height: 500px;
+    width: 500px;
+    margin: 10px;
+}
+
+#footer {
+    margin-top: 100px;
+    height: 400px;
+    display:flex;
+    justify-content:space-between;
+    background-color:#333;
+    color: white;
+}
+
+.footer-box{
+    width: 30%;
+    position: relative;
+    top: 30%;
+    padding: 0 30px;
+}
